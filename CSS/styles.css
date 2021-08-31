@@ -1,0 +1,32 @@
+html body {
+    margin: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    place-content: center;
+    padding: 15rem;
+    border-radius: 3rem;
+}
+
+.grid-column {
+    display: grid;
+    grid-template-rows: 5rem 5rem 8rem 4rem;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+}
+
+.sedans {
+    background-color: #e28525;
+}
+
+.suvs {
+    background-color: #016972;
+}
+
+.luxury {
+    background-color: #00403f;
+}
